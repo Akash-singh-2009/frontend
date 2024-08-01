@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+    margin: 0px;
+    font-family: arial;
+}
+.back{
+    height: 100vh;
+    
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bb{
+    background-color: #1f1f1f;
+    height: 500px;
+    width: 300px;
+    
+    
+    border-radius: 5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.photo{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    background-image: url("./assets/images/avatar-jessica.jpeg");
+    background-size: cover;
+
+
+}
+.box{
+    background-color: #333;
+    height: 40px;
+    width: 270px;
+    
+    color: white;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 14px;
+}
+.name{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.4rem;
+}
+.pp{
+color: hsl(75, 94%, 57%);
+font-size: 0.8rem;
+font-weight: bold;
+margin-top: -10px;
+/* padding-bottom: 15px; */
+}
+.cc{
+    color: hsl(0, 0%, 80%);
+font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.box:hover{
+    
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: 700;
+}
+@media(max-width:375px){
+      .bb{ width:270px;}
+     }
+
+  </style>
+</head>
+<body>
+<div class="back">
+    <div class="bb">
+        <div class="photo"></div>
+        <div class="name">Jessica Randall</div>
+        <div class="pp">London, United Kingdom</div>
+        <h1 class="cc">"Front-end developer and avid reader."</h1>
+  
+  <div class="box1 box">GitHub</div>
+  <div class="box2 box">Frontend Mentor</div>
+  <div class="box3 box">LinkedIn</div>
+  <div class="box4 box">Twitter</div>
+  <div class="box5 box">Instagram</div>
+  
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Akash kr Singh</a>.
+  </div>
+</body>
+</html>
